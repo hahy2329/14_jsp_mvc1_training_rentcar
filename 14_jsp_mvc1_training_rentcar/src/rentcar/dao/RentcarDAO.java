@@ -29,7 +29,7 @@ public class RentcarDAO {
 		try {
 			
 			Class.forName("com.mysql.cj.jdbc.Driver");
-			conn = DriverManager.getConnection( "jdbc:mysql://localhost:3306/RENTCAR?serverTimezone=Asia/Seoul&useSSL=false", "root", "root");
+			conn = DriverManager.getConnection( "jdbc:mysql://localhost:3306/RENTCAR?serverTimezone=Asia/Seoul&useSSL=false", "root", "tbtur!!852");
 			
 		} catch (Exception e) {
 			e.printStackTrace();
